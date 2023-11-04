@@ -1,0 +1,13 @@
+prefix=/Users/akshatpandey/endtoend/Modular_Coding/env
+exec_prefix=/Users/akshatpandey/endtoend/Modular_Coding/env
+libdir=/Users/akshatpandey/endtoend/Modular_Coding/env/lib
+sharedlibdir=/Users/akshatpandey/endtoend/Modular_Coding/env/lib
+includedir=/Users/akshatpandey/endtoend/Modular_Coding/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
